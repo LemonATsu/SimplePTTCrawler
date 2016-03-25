@@ -1,5 +1,7 @@
-## RUN
+## Run
 node server.js
+
+After running up, you can check the result on http://localhost:3000/
 
 ## Description
 This is a simple PTT Gossip board crawler.
