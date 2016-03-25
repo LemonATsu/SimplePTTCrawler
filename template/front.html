@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Articles</title>
+</head>
+<body>
+
+    {{ #Articles }}
+        <div class="article-block">
+            <div class="block">
+                {{author}} 
+                <a href="content/{{id}}">{{title}}</a> 
+                {{time}}
+            </div>
+        </div>
+    {{ /Articles }}
+    </div>
+
+</body>
+<script>
+    console.log();
+</script>
+
+</html>
